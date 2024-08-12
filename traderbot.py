@@ -120,16 +120,14 @@ def round_down(value, decimals):
 
 def make_trade(coin_pair,buy_sell,order_type,order_qty):
     # Create an order
-    # trade = client.create_order(
-    #     symbol=coin_pair,
-    #     side=buy_sell,
-    #     type=order_type,
-    #     quoteOrderQty=float(order_qty),
-    # )
-    print(coin_pair,buy_sell,order_type,float(order_qty))
-    
-    
-    return {"executedQty":float(order_qty)}
+    trade = client.create_order(
+        symbol=coin_pair,
+        side=buy_sell,
+        type=order_type,
+        quoteOrderQty=float(order_qty),
+    ) 
+   
+    return trade
 
 def sendMessage(message):
     return

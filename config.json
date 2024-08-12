@@ -3,7 +3,7 @@
   "sma_short_period": 7,
   "sma_medium_period": 25,
   "sma_long_period": 99,
-  "trade_timer_minutes": 1,
+  "trade_timer_minutes": 5,
   "show_balances": true,
   "show_markets": true,
   "show_trades": true,
@@ -13,16 +13,16 @@
     {
       "coin": "BTC",
       "fiat": "USDT",
-      "coin_hold_amount": 3.6,
-      "fiat_hold_amount": 3.6,
+      "coin_hold_amount": 0,
+      "fiat_hold_amount": 0,
       "trade_enable": true,
-      "trade_price_guard": true,
+      "trade_price_guard": false,
       "trade_buy_enable": true,
       "trade_sell_enable": true,
       "trade_buy_adjustment": 1,
       "trade_sell_adjustment": 1,
-      "trade_buy_price_adjustment": 0.02,
-      "trade_sell_price_adjustment": 0.02
+      "trade_buy_price_adjustment": -0.002,
+      "trade_sell_price_adjustment": 0.002
     }
   ]
 }
