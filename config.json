@@ -1,0 +1,28 @@
+{
+  "tld": "com",
+  "sma_short_period": 7,
+  "sma_medium_period": 25,
+  "sma_long_period": 99,
+  "trade_timer_minutes": 1,
+  "show_balances": true,
+  "show_markets": true,
+  "show_trades": true,
+  "sales_log_file": "SalesLog.txt",
+  "error_log_file": "ErrLog.txt",
+  "trading_pairs": [
+    {
+      "coin": "BTC",
+      "fiat": "USDT",
+      "coin_hold_amount": 3.6,
+      "fiat_hold_amount": 3.6,
+      "trade_enable": true,
+      "trade_price_guard": true,
+      "trade_buy_enable": true,
+      "trade_sell_enable": true,
+      "trade_buy_adjustment": 1,
+      "trade_sell_adjustment": 1,
+      "trade_buy_price_adjustment": 0.02,
+      "trade_sell_price_adjustment": 0.02
+    }
+  ]
+}
